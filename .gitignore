@@ -1,0 +1,30 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Java
+*.class
+
+# Logs
+*.log
+
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# Environment / Config files
+*.env
+#src/main/resources/database.properties
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
