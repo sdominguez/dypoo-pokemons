@@ -54,7 +54,7 @@ public class PokemonTypeDAOImp implements PokemonTypeDAO{
     }
 
     /**
-     * This method update a record in the database
+     * Actualiza un registo en la base de datos
      * @param pokemonType
      * @throws SQLException
      */
@@ -69,7 +69,7 @@ public class PokemonTypeDAOImp implements PokemonTypeDAO{
     }
 
     /**
-     * This method delete a record in the database
+     * Elimina un registro de la base de datos
      * @param id
      * @throws SQLException
      */

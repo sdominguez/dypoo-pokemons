@@ -8,8 +8,8 @@ import java.sql.SQLException;
 import java.util.Properties;
 
 /**
- * This class creates a connection with MySQL 8
- * using JDBC 8.0.33
+ * Esta clase crea una conexión con MySQL 8
+ * usando JDBC 8.0.33
  */
 public class DatabaseConnetion {
     private static DatabaseConnetion instance;
@@ -43,8 +43,8 @@ public class DatabaseConnetion {
     }
 
     /**
-     * This method get the instance of DataBaseConnection using singleton
-     * @return Instance of DatabaseConnection
+     * Obtiene una instancia de DataBaseConnection usando singleton
+     * @return instancia de DatabaseConnection
      * @throws SQLException
      */
     public  static DatabaseConnetion getInstance() throws SQLException{
