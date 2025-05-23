@@ -16,20 +16,22 @@ Se aplican buenas prácticas de arquitectura, como el patrón DAO (Data Access O
 ```
 ├── src/
 │   └── main/
-│       └── java/
-│           └── com/pokemon/
-│               ├── connection/           # Clase DatabaseConnetion.java
-│               └── dao/                  # Clases DAO para acceso a datos
+│       ├── java/
+│       │   └── com/pokemon/
+│       │       ├── connection/           # Clase DatabaseConnetion.java
+│       │       └── dao/                  # Clases DAO para acceso a datos
+│       └── resources/
+│           └── database.properties       # Archivo de configuración de credenciales
 ├── build.gradle
 ├── settings.gradle
 ├── gradlew / gradlew.bat
 ├── gradle/wrapper/
-└── database.properties                  # Archivo de configuración de credenciales
+└── .gitignore
 ```
 
 ## Configuración de la base de datos
 
-El archivo `database.properties` debe ubicarse en `src/main/resources/` y debe contener:
+El archivo `database.properties` se encuentra en `src/main/resources/` y debe contener:
 
 ```
 db.url=jdbc:mysql://localhost:3306/pokemondb
